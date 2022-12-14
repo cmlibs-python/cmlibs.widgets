@@ -1,3 +1,6 @@
+.. _Region-Editor-Widget:
+
+====================
 Region Editor Widget
 ====================
 
@@ -7,6 +10,7 @@ The **Region Editor Widget** is a control to add, remove, and modify the region 
 
 .. figure:: _images/region-editor-widget.png
    :alt: Region editor widget.
+   :width: 75%
 
    Region editor widget.
 
@@ -17,12 +21,3 @@ This tree view shows the region structures. You can create new regions by right-
 From the popup menu select the add child region entry. 
 You can rename a region by double-clicking on the region and entering an alpha-numeric value. 
 You can remove a region by right-clicking on the region and select remove region on the popup menu.
-
-API
----
-
-.. autoclass:: opencmiss.zincwidgets.regioneditorwidget.RegionEditorWidget
-   :members:
-
-.. autoclass:: opencmiss.zincwidgets.regioneditorwidget.RegionTreeModel
-   :members:
