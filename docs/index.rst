@@ -7,6 +7,7 @@ Widgets
 -------
 
 .. toctree::
+   :maxdepth: 1
 
    fieldeditorwidget
    graphicseditorwidget

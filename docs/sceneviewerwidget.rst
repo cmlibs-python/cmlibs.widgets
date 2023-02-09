@@ -1,4 +1,7 @@
-Sceneviewer Editor Widget
-=========================
+.. _Sceneviewer-Widget:
 
-The **Sceneviewer Editor Widget** is a widget for displaying an OpenGL based scene.
+==================
+Sceneviewer Widget
+==================
+
+The **Sceneviewer Widget** is a widget for displaying an OpenGL based scene.

@@ -1,3 +1,6 @@
+.. _Time-Editor-Widget:
+
+==================
 Time Editor Widget
 ==================
 
@@ -36,8 +39,3 @@ The maximum time can be manually edited.
 It is initially set from the time keeper.
 The maximum time cannot be less than the minimum time.
 
-API
----
-
-.. autoclass:: opencmiss.zincwidgets.timeeditorwidget.TimeEditorWidget
-   :members:

@@ -1,3 +1,6 @@
+.. _Spectrum-Editor-Widget:
+
+======================
 Spectrum Editor Widget
 ======================
 
@@ -7,6 +10,7 @@ The **Spectrum Editor Widget** is a control to add, remove, and edit spectra.
 
 .. figure:: _images/spectrum-editor-widget.png
    :alt: Spectrum editor widget.
+   :width: 75%
 
    Spectrum editor widget.
 
