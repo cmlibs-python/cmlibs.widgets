@@ -3,4 +3,7 @@
 OpenCMISS Zinc Widgets
 ======================
 
-A collection of Qt widgets and utilities building on the Python bindings for the OpenCMISS-Zinc Visualisation Library.
+This package has been renamed. Use :code:`pip install cmlibs.widgets` instead.
+New package: https://pypi.org/project/cmlibs.widgets/
+
+See `OpenCMISS2CMLibs rename tool <https://pypi.org/project/opencmiss2cmlibs/>`_ for help with renaming your own code.
