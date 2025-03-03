@@ -6,7 +6,7 @@ Field Editor Widget
 
 The **Field Editor Widget** is a control to add, remove, and modify fields in a region.
 
-.. _fig-opencmiss-zincwidgets-field-editor-widget:
+.. _fig-cmlibs-widgets-field-editor-widget:
 
 .. figure:: _images/field-editor-widget.png
    :alt: Field editor widget.
@@ -37,3 +37,8 @@ It contains a number of controls.
 * Source field: This drop-down menu allows you to select an existing field as a source field for a new field, only enabled when creating a new field.
 * Component indexes: This text box shows and allows you to change the component indexes of the selected field.
 
+API
+---
+
+.. autoclass:: cmlibs.widgets.fieldeditorwidget.FieldEditorWidget
+   :members:

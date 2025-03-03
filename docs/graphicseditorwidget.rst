@@ -8,7 +8,7 @@ The **Graphics Editor Widget** is where each graphical setting can be edited.
 When a graphical setting is selected from the list, all of its editable properties appear in this area. 
 The range of editable properties will vary depending on the type of graphics currently selected.
 
-.. _fig-opencmiss-zincwidgets-graphics-editor-widget:
+.. _fig-cmlibs-widgets-graphics-editor-widget:
 
 .. figure:: _images/graphics-editor-widget.png
    :alt: Graphics editor widget.

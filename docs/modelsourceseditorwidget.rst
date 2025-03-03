@@ -6,7 +6,7 @@ Model Sources Editor Widget
 
 The **Model Sources Editor Widget** is a control to add and remove source files.
 
-.. _fig-opencmiss-zincwidgets-model-sources-editor-widget:
+.. _fig-cmlibs-widgets-model-sources-editor-widget:
 
 .. figure:: _images/model-sources-editor-widget.png
    :alt: Model sources editor widget.
@@ -31,3 +31,12 @@ For the demonstration dataset we want to load the organ scaffold into the root r
 
 Note: Click the red-colored minus (Remove) icon to remove a file from the assigned region. 
 But this operation is fraught with error and it is best not to use this functionality.
+
+API
+---
+
+.. autoclass:: cmlibs.widgets.modelsourceseditorwidget.ModelSourcesEditorWidget
+   :members:
+
+.. autoclass:: cmlibs.widgets.modelsourceseditorwidget.ModelSourcesModel
+   :members:

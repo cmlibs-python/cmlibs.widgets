@@ -6,7 +6,7 @@ Scene Editor Widget
 
 The **Scene Editor Widget** is a control to add, remove, and modify the graphics of a scene.
 
-.. _fig-opencmiss-zincwidgets-scene-editor-widget:
+.. _fig-cmlibs-widgets-scene-editor-widget:
 
 .. figure:: _images/scene-editor-widget.png
    :alt: Scene editor widget.
@@ -33,3 +33,9 @@ Settings editor
 Below the graphics list is the settings editor where each graphical setting can be edited. 
 When a graphical setting is selected from the list, all of its editable properties appear in this area. 
 The range of editable properties will vary depending on the :ref:`type of graphics <types-of-graphics>` currently selected.
+
+API
+---
+
+.. autoclass:: cmlibs.widgets.sceneeditorwidget.SceneEditorWidget
+   :members:

@@ -6,7 +6,7 @@ Material Editor Widget
 
 The material editor window is where you define materials to be applied to graphical elements or objects in the graphics window.  
 
-.. _fig-opencmiss-zincwidgets-material-editor-widget:
+.. _fig-cmlibs-widgets-material-editor-widget:
 
 .. figure:: _images/material-editor-widget.png
    :alt: Material editor widget.
@@ -58,3 +58,12 @@ Preview panel
 
 Below the surface editor is a panel that shows a preview of the currently edited material applied to a sphere. 
 This panel displays a sphere, shaded with the selected material.
+
+API
+---
+
+.. autoclass:: cmlibs.widgets.materialeditorwidget.MaterialEditorWidget
+   :members:
+
+.. autoclass:: cmlibs.widgets.materialeditorwidget.MaterialModel
+   :members:
