@@ -4,7 +4,7 @@
 Material Editor Widget
 ======================
 
-The material editor window is where you define materials to be applied to graphical elements or objects in the graphics window.  
+The **material editor widget** enables interactive creation and editing of graphical materials which are used to control the colour and shading of graphics in 3-D visualizations.
 
 .. _fig-cmlibs-widgets-material-editor-widget:
 
@@ -22,7 +22,7 @@ Along the top of the material editor window are two buttons; create and delete. 
 Below these buttons is the list of currently defined materials.
 These will contain the default materials, as well as any defined in any comfile that has been run.
 
-You can rename the material by double click it.
+You can rename the material by double-clicking on it.
 
 .. figure:: _images/material-editor-rename.png
    :alt: Material editor rename material.
@@ -48,10 +48,11 @@ Below the material list is a panel containing four colour select buttons. These 
 
 When you click the Select Colour button, a colour dialog will pop up, and you can select a colour in several ways. The background of these four buttons indicates the colour you choose.
 
-Below the colour editors is the surface editor.  This panel allows you to set the alpha, shininess, and texture properties of the surface of the material being edited.  
-The alpha value sets the transparency of the material.  The shininess sets the "tightness" or size of the specular highlights of a material; generally the higher the shininess, the smaller and harder-edged the highlights.  
-Higher shininess makes a material look glossier.  
-The surface editor also allows you to assign a texture to the material surface - this option is unavailable for now.
+Below the colour editors are further attributes controlling the rendering:
+
+* *Alpha* sets the opacity, from 0.0 (transparent) to 1.0 (opaque) with corresponding variable translucency in between. Use of alpha \< 1.0 may require use of Sceneviewer Transparency modes ``slow`` or ``order independent`` for best results.
+* *Shininess* sets the "tightness" or size of the specular highlights of a material, a value from 0.0 to 1.0. Generally, the higher the shininess, the smaller and harder-edged are the highlights. Use requires a non-black specular colour.
+* *Texture* specifies up to 4 image fields from a region to be attached to the material for texture mapping and other special effects. Note at this time facilities for loading images and shaders which use these have not been exposed.
 
 Preview panel
 -------------

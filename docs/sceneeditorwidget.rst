@@ -23,16 +23,15 @@ Below the selector is the list of currently defined graphics.
 The graphics list displays all the defined graphics in the current scene, each with a checkbox in front of it. 
 This checkbox allows you to set whether to display this graphic.
 This graphics list can also be reordered via drag and drop. Graphics at the top have higher display priority.
-The name of the graph shows the graph type followed by the domain type and subgroup field, which can be changed in the settings editor below.
+Earlier graphics are rendered first, which can affect translucency results in some modes.
+The graphics in the list are labeled by the graphics type followed by the domain and optionally the subgroup. The domain and subgroup can be changed in the graphics editor below.
 
-Below the list of graphics, there is a drop-down menu that allows you to add a new graphic, and a button to delete the selected existing graphic.
+Below the list of graphics, there is a drop-down menu that allows addition of new graphics of specified type (with convenient *points* sub-types *point, node points, data points* and *elements points* which also set the domain), and a button to *Delete* the currently selected graphics.
 
-
-Settings editor
+Graphics editor
 ---------------
-Below the graphics list is the settings editor where each graphical setting can be edited. 
-When a graphical setting is selected from the list, all of its editable properties appear in this area. 
-The range of editable properties will vary depending on the :ref:`type of graphics <types-of-graphics>` currently selected.
+Below the graphics list is the graphics editor where settings for each graphics can be edited.
+The range of settings displayed varies depending on the :ref:`type of graphics <types-of-graphics>` currently selected and sometimes also the *Domain type*.
 
 API
 ---
