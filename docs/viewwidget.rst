@@ -1,3 +1,6 @@
+.. _View-Widget:
+
+===========
 View Widget
 ===========
 

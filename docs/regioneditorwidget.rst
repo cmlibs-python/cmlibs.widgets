@@ -1,3 +1,6 @@
+.. _Region-Editor-Widget:
+
+====================
 Region Editor Widget
 ====================
 
@@ -7,6 +10,7 @@ The **Region Editor Widget** is a control to add, remove, and modify the region 
 
 .. figure:: _images/region-editor-widget.png
    :alt: Region editor widget.
+   :width: 75%
 
    Region editor widget.
 

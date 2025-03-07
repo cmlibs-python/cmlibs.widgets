@@ -1,3 +1,6 @@
+.. _Model-Sources-Editor-Widget:
+
+===========================
 Model Sources Editor Widget
 ===========================
 
@@ -7,6 +10,7 @@ The **Model Sources Editor Widget** is a control to add and remove source files.
 
 .. figure:: _images/model-sources-editor-widget.png
    :alt: Model sources editor widget.
+   :width: 75%
 
    Model sources editor widget.
 
