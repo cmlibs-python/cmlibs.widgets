@@ -1,3 +1,6 @@
+.. _Tessellation-Editor-Widget:
+
+==========================
 Tessellation Editor Widget
 ==========================
 

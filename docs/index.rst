@@ -1,12 +1,13 @@
 CMLibs Widgets
 ==============
 
-The **CMLibs Widgets** is a collection of PySide6 widgets to interface between a user interface and the Zinc library.
+The **CMLibs Widgets** is a collection of PySide6 (Qt) widgets for building user interfaces for editing and interacting with models and visualizations defined using the CMLibs Zinc library.
 
 Widgets
 -------
 
 .. toctree::
+   :maxdepth: 1
 
    fieldeditorwidget
    graphicseditorwidget
@@ -14,6 +15,7 @@ Widgets
    modelsourceseditorwidget
    regioneditorwidget
    sceneeditorwidget
+   sceneviewereditorwidget
    sceneviewerwidget
    spectrumeditorwidget
    tessellationwidget

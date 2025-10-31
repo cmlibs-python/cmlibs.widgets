@@ -1,3 +1,6 @@
+.. _Time-Editor-Widget:
+
+==================
 Time Editor Widget
 ==================
 
